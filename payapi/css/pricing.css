@@ -1,0 +1,115 @@
+.p2 h2 {
+	text-align: center;
+	margin: 70px 0;
+	font-size: 32px;
+	font-weight: 100;
+}
+
+.p3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.p3 h3 {
+	color: rgba(186, 66, 112, 1);
+	font-size: 24px;
+	font-weight: 100;
+	margin: 0;
+}
+.p3 h2 {
+	font-size: 56px;
+	font-weight: 100;
+	margin: 0;
+}
+.p3 p {
+	width: 81%;
+	text-align: center;
+	font-weight: 500;
+}
+
+hr {
+	background-color: rgba(54, 83, 107, 1);
+	margin: 0 20px;
+	width: 90%;
+}
+
+.pricing {
+	display: flex;
+	flex-direction: column;
+	padding: 12px 24px;
+	align-items: center;
+}
+
+.p4 {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	justify-items: start;
+	gap: 12px;
+	width: max-content;
+}
+
+.Normal-State-Dark {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	width: 25%;
+}
+
+.répéter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gras {
+	font-weight: 700;
+}
+
+button {
+	background-color: transparent;
+	border: transparent;
+}
+
+.tout {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+	.répéter {
+		flex-direction: row;
+	}
+	.Normal-State-Dark button {
+		padding: 9px 22px;
+	}
+	.Normal-State-Dark {
+		width: 61%;
+	}
+	.p3 h3 {
+		font-size: 24px;
+	}
+	.p2 h2 {
+		font-size: 48px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.p3 {
+		align-items: flex-start;
+	}
+	.p3 p {
+		text-align: start;
+	}
+	.p3 h3 {
+		font-size: 32px;
+	}
+	.p2 h2 {
+		font-size: 56px;
+		text-align: start;
+	}
+}

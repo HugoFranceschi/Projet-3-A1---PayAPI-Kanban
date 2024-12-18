@@ -1,0 +1,26 @@
+.cercle-de-chiant-paraille {
+	background-color: rgb(54 83 107 / 23%);
+	border: none;
+	width: 86vw;
+	height: 81vw;
+	border-radius: 388px;
+	position: absolute;
+	bottom: 85%;
+	left: 59%;
+	z-index: -1;
+}
+
+@media screen and (min-width: 769px) {
+	.cercle-de-chiant-paraille {
+		bottom: 63%;
+		left: 74%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.cercle-de-chiant-paraille {
+		bottom: 80%;
+		left: 50%;
+		width: 63vw;
+	}
+}

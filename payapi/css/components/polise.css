@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* font-family: "Public Sans", sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+/* font-family: "DM Serif Display", serif; */
+
+p {
+	font-family: "Public Sans", sans-serif;
+	font-weight: 100;
+	color: rgba(108, 130, 148, 1);
+}
+
+body {
+	font-family: "DM Serif Display", serif;
+	color: rgba(54, 83, 107, 1);
+}
