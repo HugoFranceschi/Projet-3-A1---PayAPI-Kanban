@@ -57,7 +57,7 @@ textarea {
 
 .p2-1 > input:checked {
 	background-color: rgba(186, 66, 112, 1);
-	background-image: url(/assets/validé2.svg);
+	background-image: url(/payapi/assets/validé2.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 55%;
